@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    background-color: darkgray;
+    width : 20%;
+    margin: auto;
+    border-radius: 20px;
+   
+    margin-top: 200px;
+    
+}
+.email{
+    display: block;
+    margin-top: 0;
+    margin-left: 10px;
+    width: 60%;
+    
+   
+    
+}
+.password{
+    display: block;
+}
+

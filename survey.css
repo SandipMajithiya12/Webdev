@@ -1,0 +1,40 @@
+body{
+  background:   url('https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg');
+  text-align: center;
+  font-size: medium;
+}
+
+label{
+  font-size: medium;
+ 
+  
+
+  
+}
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#rec{
+  display: block;
+}
+#form{
+  display: block;
+}
+.container{
+  width : 50%;
+  background-color: rgba(0, 56, 56, 0.42);
+
+  text-align: left;
+  margin: auto;
+}
+div {
+  display: block;
+}
+#email-label{
+  display: block;
+}
+#number-label{
+    display: block;
+}
+
