@@ -26,6 +26,6 @@ const tea4BlackTeamFCC = getTea(prepareBlackTea,25);
 // Only change code above this line
 
 console.log(
-  tea4GreenTeamFCC,
-  tea4BlackTeamFCC
+  tea4GreenTeamFCC
+  
 );
