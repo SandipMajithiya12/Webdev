@@ -16,7 +16,7 @@ const getTea = (prepareTea, numOfCups) => {
     const teaCup = prepareTea();
     teaCups.push(teaCup);
   }
-  return teaCups;
+  return ;
 };
 
 // Only change code below this line
