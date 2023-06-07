@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: aliceblue;
+    width: 100%;
+}
+header {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('raimond-klavins-L6jxljMeUoo-unsplash.png');
+        background-size: cover;
+        background-position: bottom;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+}
+.header-con{
+    margin-bottom: 150px;
+    color: darkgray;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.header-con h2{
+font-size: 4vmin;
+
+}
+.line{
+    width: 150px;
+    height: 5px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+
+}
+.header-con h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;    
+    }
+.ctn{
+    padding: 8px 15px;
+    background-color: brown;
+    border-radius: 35px;
+    color: aliceblue;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    
+}
+ul{
+    list-style: none;
+}
+.nav-links li{
+    margin: 0 30px;
+}
