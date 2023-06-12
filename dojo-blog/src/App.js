@@ -1,5 +1,4 @@
 
-
 import Navbar from './navbar';  
 import Home from './Home';
 function App() {
