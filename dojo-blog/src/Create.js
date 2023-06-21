@@ -11,9 +11,10 @@ const Create = () => {
 
     const handleSubmit = (e) =>
     {
-        //e.preventDefault();
+        e.preventDefault();
         const blog = {title,body,author};
        setIsPending(true);
+       console.log("yes");
   
     fetch('http://localhost:8000/blogs',
     {
