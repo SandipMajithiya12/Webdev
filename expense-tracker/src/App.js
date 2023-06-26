@@ -5,10 +5,11 @@ import Balance from './componets/Balance';
 import IncomeExpense from './componets/IncomeExpense';
 import TransectionList from './componets/TransectionList';
 import AddTranjection from './componets/AddTranjection';
+import { GlobalProvider } from './context/Globalstate';
 
 function App() {
   return (
-    <div>
+    <GlobalProvider>
       <Header />
       <div className="container">
         <Balance />
@@ -17,7 +18,7 @@ function App() {
         <AddTranjection />
       </div>
      
-    </div>
+      </GlobalProvider>
   );
 }
 
