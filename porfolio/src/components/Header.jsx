@@ -12,7 +12,7 @@ const Header = () => {
     <div className='w-full max-w-7xl'>
       <div className='md:flex items-center justify-between py-4 md:px-10 px-7'> 
         <div className='font-blod text-2xl cursor-pointer flex items-center gap-1'>
-          <span className='text-primary hover:text-white'>Sandy</span>
+          <span className='text-primary hover:text-white'>Sandip</span>
           {
             <ul className='md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-10 left-0 w-full
             md:w-auto mt-4 md:mt-0 md:pl-9 pl-9  sm:bg-trasparent transition-all duration-500 ease-in'>
