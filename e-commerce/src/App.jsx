@@ -5,12 +5,14 @@ import { BrowserRouter as Router,Route,Routes } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Cart from './pages/cart/cart';
 import Shop from './pages/shop/shop';
+import ShopcontextProvider from './context/ShopcontextProvider';
 
 function App() {
   
 
   return (
     <>
+    <ShopcontextProvider>
       <Router>
         <Navbar />
         <Routes>
@@ -20,6 +22,7 @@ function App() {
 
         </Routes>
       </Router>
+      </ShopcontextProvider>
     </>
   )
 }

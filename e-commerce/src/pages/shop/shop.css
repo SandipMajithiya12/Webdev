@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+    
 }
 .product {
     border-radius: 15px;
@@ -16,17 +17,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+    
+   
   }
   
   .product img {
     width: 400px;
+      
   }
   
   .product .description {
     text-align: center;
+  
   }
   
   .product:hover {
     transition: 0.3s ease-in;
     cursor: pointer;
+  }
+  .addtocartbtn{
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(203, 199, 195);
+
+  }
+  .addtocartbtn:hover{
+    background-color: black;
+    color: #fff;
   }
