@@ -1,26 +1,24 @@
 
-import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
+import './App.css'
+import About from './rouets/About'
+import Home from './rouets/Home'
+import Project from './rouets/Project'
+import Contact from './rouets/Contact'
+import { Route, Routes } from 'react-router'
 
 function App() {
   
-
   return (
-    <div className="max-w-7xl mx-auto">
-      <Header />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
+    <>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/Project" element={<Project />}></Route>
+      <Route path="/Contact" element={<Contact />}></Route>
+      <Route path="/About" element={<About />}></Route>
+    </Routes>
 
-    </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App
